@@ -1,0 +1,52 @@
+/* couleurs */
+body {
+  --jaune:rgb(254,201,7);
+  --noir:rgb(64,64,64);
+}
+
+/* identité */
+.name {
+  margin-top: 3em;
+  padding-left: 60px;
+}
+
+/* couleur du nom */
+.name_color {
+  color: var(--jaune);
+}
+
+/* soulignement du job */
+.underline {
+  border-bottom: 2px solid var(--jaune);
+}
+
+/* avatar */
+.avatar {
+  display: flex;
+  justify-content: center;
+  width: 230px;
+  height: 230px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #737373;
+}
+
+/* couleur de fond des sections "Contact", "A propos" et "Loisirs" */
+.side {
+  background-color: var(--jaune);
+  padding-right:0;
+  padding-left: 0;
+  padding-top: 1em;
+}
+
+/* en-têtes grises des sections "Contact", "A propos" et "Loisirs" */
+.border_color {
+  background-color: var(--noir);
+  color: var(--jaune);
+  text-align: center;
+  padding: 5px;
+}
+
+
+
