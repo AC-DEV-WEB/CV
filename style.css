@@ -1,7 +1,7 @@
 /* couleurs */
 body {
-  --jaune:rgb(254,201,7);
-  --noir:rgb(64,64,64);
+  --jaune:#FECA07;
+  --noir:#404040;
 }
 
 /* identité */
@@ -29,7 +29,7 @@ body {
   margin: auto;
   overflow: hidden;
   border-radius: 50%;
-  border: 5px solid #737373;
+  border: 5px solid var(--black);
 }
 
 /* couleur de fond des sections "Contact", "A propos" et "Loisirs" */
