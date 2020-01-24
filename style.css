@@ -32,7 +32,7 @@ body {
   border: 5px solid var(--black);
 }
 
-/* couleur de fond des sections "Contact", "A propos" et "Loisirs" */
+/* couleur de fond des sections "Contact", "A propos de moi" et "Loisirs" */
 .side {
   background-color: var(--jaune);
   padding-right:0;
@@ -40,7 +40,7 @@ body {
   padding-top: 1em;
 }
 
-/* en-têtes grises des sections "Contact", "A propos" et "Loisirs" */
+/* en-têtes grises des sections "Contact", "A propos de moi" et "Loisirs" */
 .border_color {
   background-color: var(--noir);
   color: var(--jaune);
