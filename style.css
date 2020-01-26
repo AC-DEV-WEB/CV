@@ -4,7 +4,7 @@ body {
   --noir:#404040;
 }
 
-/* identité */
+/* nom */
 .name {
   margin-top: 3em;
   padding-left: 60px;
@@ -15,9 +15,19 @@ body {
   color: var(--jaune);
 }
 
+/* taille du nom */
+h1 {
+  font-size: 3em;
+}
+
 /* soulignement du job */
 .underline {
   border-bottom: 2px solid var(--jaune);
+}
+
+/* taille du job */
+h2 {
+  font-size: 1.8em;
 }
 
 /* avatar */
@@ -37,7 +47,23 @@ body {
   background-color: var(--noir);
   color: var(--jaune);
   text-align: center;
-  padding: 5px;
+  font-size: 1.8em;
+}
+
+/* couleur des icônes des sections "Contact", "A propos de moi" et "Loisirs" */
+.icon {
+  color: var(--jaune);
+}
+
+/* couleur de la ligne de séparation horizontale */
+hr {
+  border: 1px solid var(--jaune);
+}
+
+/* taille du titre des sections "Contact", "A propos de moi" et "Loisirs" */
+h3 {
+  font-weight: bold;
+  font-size: 1.8em;
 }
 
 /* mise en page de l'en-tête */
@@ -48,9 +74,9 @@ header {
 
 /* mise en page de la partie droite */
 main {
-  position: absolute;
-  top: 28%;
-  right: 60%;
+  padding-top: 13%;
+  padding-left: 23%;
+  padding-right: 0%;
 }
 
 /* mise en page de la partie gauche */
