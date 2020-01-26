@@ -50,7 +50,7 @@ h2 {
   font-size: 1.8em;
 }
 
-/* couleur des icônes des sections "Contact", "A propos de moi" et "Loisirs" */
+/* couleur des icônes des sections "Formation", "Expérience professionelle" et "Recommandations" */
 .icon {
   color: var(--jaune);
 }
@@ -60,7 +60,7 @@ hr {
   border: 1px solid var(--jaune);
 }
 
-/* taille du titre des sections "Contact", "A propos de moi" et "Loisirs" */
+/* taille du titre des sections "Formation", "Expérience professionelle" et "Recommandations" */
 h3 {
   font-weight: bold;
   font-size: 1.8em;
