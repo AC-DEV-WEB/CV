@@ -43,7 +43,7 @@ h2 {
 }
 
 /* en-têtes grises des sections "Contact", "A propos de moi" et "Loisirs" */
-.border_color {
+.titles {
   background-color: var(--noir);
   color: var(--jaune);
   text-align: center;
