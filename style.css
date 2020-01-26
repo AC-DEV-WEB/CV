@@ -50,6 +50,22 @@ h2 {
   font-size: 1.8em;
 }
 
+/* mise en forme des icônes de la section "Loisirs" */
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* apparence des icônes de la section "Loisirs" */
+.hobbies i {
+  color: var(--noir);
+  border: 2px solid var(--noir);
+  border-radius: 100%;
+  padding: 20px;
+  font-size: 1.8em;
+}
+
 /* couleur des icônes des sections "Formation", "Expérience professionelle" et "Recommandations" */
 .icon {
   color: var(--jaune);
