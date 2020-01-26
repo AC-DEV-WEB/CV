@@ -1,7 +1,14 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('https://fonts.googleapis.com/css?family=Raleway');
+}
+
 /* couleurs */
 body {
   --jaune:#FECA07;
   --noir:#404040;
+  font-family: 'Raleway' !important;
+  font-size: 16px;
 }
 
 /* nom */
