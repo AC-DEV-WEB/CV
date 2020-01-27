@@ -42,6 +42,8 @@ h2 {
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid var(--black);
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
 /* aspect des titres des sections "Contact", "A propos de moi" et "Loisirs" */
@@ -53,11 +55,25 @@ h2 {
   text-transform: uppercase;
 }
 
+/* mise en forme des icônes de la section "A propos de moi" */
+.contact {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/* mise en forme des icônes de la section "A propos de moi" */
+.about_me {
+  margin-top: 10%;
+  margin-bottom: 90%;
+}
+
 /* mise en forme des icônes de la section "Loisirs" */
 .hobbies {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 10%;
+  margin-bottom: 15%;
 }
 
 /* apparence des icônes de la section "Loisirs" */
