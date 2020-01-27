@@ -28,7 +28,7 @@ h1 {
 }
 
 /* taille du job */
-h4 {
+h2 {
   font-size: 1.8em;
 }
 
@@ -44,12 +44,13 @@ h4 {
   border: 5px solid var(--black);
 }
 
-/* en-têtes grises des sections "Contact", "A propos de moi" et "Loisirs" */
-.titles {
+/* aspect des titres des sections "Contact", "A propos de moi" et "Loisirs" */
+.titles_left {
   background-color: var(--noir);
   color: var(--jaune);
   text-align: center;
   font-size: 1.8em;
+  text-transform: uppercase;
 }
 
 /* mise en forme des icônes de la section "Loisirs" */
@@ -73,16 +74,15 @@ h4 {
   color: var(--jaune);
 }
 
-/* couleur de la ligne de séparation horizontale */
-hr {
-  border: 1px solid var(--jaune);
+/* aspect des titres des sections "Formation", "Expérience professionelle" et "Recommandations" */
+.titles_right {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  border-bottom: solid var(--jaune) 2px;
 }
 
-
-/* taille du titre des sections "Formation", "Expérience professionelle" et "Recommandations" */
-h2, h3 {
-  font-weight: bold;
-  font-size: 1.8em;
+/* taille des titres des entreprises */
+h4 {
   text-transform: uppercase;
 }
 
