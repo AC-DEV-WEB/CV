@@ -28,7 +28,7 @@ h1 {
 }
 
 /* taille du job */
-h2 {
+h4 {
   font-size: 1.8em;
 }
 
@@ -78,8 +78,9 @@ hr {
   border: 1px solid var(--jaune);
 }
 
+
 /* taille du titre des sections "Formation", "Expérience professionelle" et "Recommandations" */
-h3 {
+h2, h3 {
   font-weight: bold;
   font-size: 1.8em;
   text-transform: uppercase;
