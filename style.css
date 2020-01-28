@@ -39,11 +39,11 @@ h2 {
   width: 230px;
   height: 230px;
   margin: auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid var(--black);
-  margin-bottom: 10%;
-  margin-top: 10%;
 }
 
 /* aspect des titres des sections "Contact", "A propos de moi" et "Loisirs" */
@@ -132,5 +132,120 @@ aside {
   padding-top: 1em;
 }
 
+/* mise en page pour tablette et mobile */
+@media screen and (max-width: 768px) { 
+  header {
+    width: auto;
+    top: 0%;
+    right: 20%;
+	}
+  main {
+    width: 80%;
+    margin-top: 26%;
+    margin-left: 16%;
+  }
+  aside {
+    width: 36%;
+    text-align: center;
+  }
+  .hobbies {
+    margin-top: 10%;
+    margin-bottom: 440%;
+  }
+}
 
+@media screen and (max-width: 800px) { 
+  header {
+    width: auto;
+    top: 0%;
+    right: 10%;
+	}
+  main {
+    width: 80%;
+    margin-top: 22%;
+    margin-left: 16%;
+  }
+  aside {
+    width: 36%;
+    text-align: center;
+  }
+  .hobbies {
+    margin-top: 10%;
+    margin-bottom: 400%;
+  }
+}
 
+@media screen and (max-width: 375px) { 
+  header {
+    width: auto;
+    top: 0%;
+    font-size: 0.1em;
+	}
+  main {
+    width: auto;
+    margin-top: 320%;
+    margin-left: -20%;
+  }
+  .location {
+    margin-left: 6%;
+  }
+  aside {
+    width: auto;
+    margin-top: 50%;
+    text-align: center;
+  }
+  .avatar {
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+  .contact {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .about_me {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .hobbies {
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 414px) { 
+  header {
+    width: auto;
+    top: 0%;
+    font-size: 0.1em;
+    margin-left: 10%;
+	}
+  main {
+    width: auto;
+    margin-top: 340%;
+    margin-left: -20%;
+  }
+  .location {
+    margin-left: 6%;
+  }
+  aside {
+    width: auto;
+    margin-top: 60%;
+    text-align: center;
+  }
+  .avatar {
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+  .contact {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .about_me {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .hobbies {
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+}
