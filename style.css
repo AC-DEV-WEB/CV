@@ -1,7 +1,15 @@
-/* couleurs */
+/* récupération de la police */
+@font-face {
+  font-family: 'Roboto';
+  src: url('roboto.eot');
+  src: url('roboto.eot?#iefix') format('embedded-opentype'),
+  url('roboto.woff') format('woff'),
+  url('roboto.ttf')  format('truetype'),
+  url('roboto.svg#svgFontName') format('svg');
+}
+
+/* police */
 body {
-  --jaune:#FECA07;
-  --noir:#404040;
   font-family: 'Roboto', sans-serif !important;
   font-size: 16px;
 }
@@ -14,7 +22,7 @@ body {
 
 /* couleur du nom */
 .name_color {
-  color: var(--jaune);
+  color: #FECA07;
 }
 
 /* taille du nom */
@@ -24,7 +32,7 @@ h1 {
 
 /* soulignement du job */
 .underline {
-  border-bottom: 2px solid var(--jaune);
+  border-bottom: 2px solid #FECA07;
 }
 
 /* taille du job */
@@ -43,13 +51,13 @@ h2 {
   margin-top: 10%;
   overflow: hidden;
   border-radius: 50%;
-  border: 5px solid var(--black);
+  border: 5px solid #404040;
 }
 
 /* aspect des titres des sections "Contact", "A propos de moi" et "Loisirs" */
 .titles_left {
-  background-color: var(--noir);
-  color: var(--jaune);
+  background-color: #404040;
+  color: #FECA07;
   text-align: center;
   font-size: 1.8em;
   text-transform: uppercase;
@@ -84,8 +92,8 @@ h2 {
 
 /* apparence des icônes de la section "Loisirs" */
 .hobbies i {
-  color: var(--noir);
-  border: 2px solid var(--noir);
+  color: #404040;
+  border: 2px solid #404040;
   border-radius: 100%;
   padding: 20px;
   font-size: 1.8em;
@@ -93,14 +101,14 @@ h2 {
 
 /* couleur des icônes des sections "Formation", "Expérience professionelle" et "Recommandations" */
 .icon {
-  color: var(--jaune);
+  color: #FECA07;
 }
 
 /* aspect des titres des sections "Formation", "Expérience professionelle" et "Recommandations" */
 .titles_right {
   font-size: 1.8em;
   text-transform: uppercase;
-  border-bottom: solid var(--jaune) 2px;
+  border-bottom: solid #FECA07 2px;
 }
 
 /* taille des titres des entreprises */
@@ -132,7 +140,7 @@ aside {
   top: 0%; 
   left: 0%;
   width: 20%;
-  background-color: var(--jaune);
+  background-color: #FECA07;
   padding-right:0;
   padding-left: 0;
   padding-top: 1em;
