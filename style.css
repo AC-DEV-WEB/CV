@@ -59,12 +59,16 @@ h2 {
 .contact {
   margin-top: 10%;
   margin-bottom: 10%;
+  margin-left: 10%;
 }
 
 /* mise en forme des icônes de la section "A propos de moi" */
 .about_me {
   margin-top: 10%;
   margin-bottom: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
 }
 
 /* mise en forme des icônes de la section "Loisirs" */
@@ -74,6 +78,8 @@ h2 {
   justify-content: space-around;
   margin-top: 10%;
   margin-bottom: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* apparence des icônes de la section "Loisirs" */
