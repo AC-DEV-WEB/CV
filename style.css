@@ -102,13 +102,13 @@ h2 {
 /* couleur des icônes des sections "Formation", "Expérience professionelle" et "Recommandations" */
 .icon {
   color: #FECA07;
+  font-size: 1.3em;
 }
 
 /* aspect des titres des sections "Formation", "Expérience professionelle" et "Recommandations" */
 .titles_right {
   font-size: 1.8em;
   text-transform: uppercase;
-  border-bottom: solid #FECA07 2px;
   font-weight: bold;
 }
 
@@ -124,7 +124,7 @@ h4 {
 
 /* ajustement de l'emplacement des lieux */
 .location {
-	margin-left: 6%;
+	margin-left: 7.5%;
 }
 
 /* mise en page de l'en-tête */
@@ -185,7 +185,7 @@ aside {
     margin-right: 60px;
   }
   .location {
-    margin-left: 9%;
+    margin-left: 9.5%;
   }
 }
 
@@ -222,7 +222,7 @@ aside {
     margin-right: 150px;
   }
   .location {
-    margin-left: 6%;
+    margin-left: 6.5%;
   }
 }
 
@@ -234,7 +234,7 @@ aside {
     margin-left: 22%;
   }
   .about_me {
-    margin-bottom: 100%;
+    margin-bottom: 130%;
   }
   .hobbies {
     margin-bottom: 150%;
@@ -244,7 +244,7 @@ aside {
     margin-left: 1%;
   }
   .location {
-    margin-left: 8%;
+    margin-left: 8.5%;
   }
 }
 
@@ -252,18 +252,18 @@ aside {
 @media screen and (min-width: 3840px) {
   header {
     width: auto;
-    margin-top: 6%;
-    margin-left: 21%;
+    margin-top: 10%;
+    margin-left: 21.5%;
   }
   .about_me {
     margin-bottom: 100%;
   }
   main {
-    margin-top: -3%;
+    margin-top: -8%;
     margin-left: -2%;
   }
   .location {
-    margin-left: 20px;
+    margin-left: 5%;
   }
 }
 
