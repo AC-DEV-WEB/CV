@@ -112,6 +112,11 @@ h2 {
   font-weight: bold;
 }
 
+/* espace entre l'icône et le texte */
+.space {
+  margin-left: 3%;
+}
+
 /* taille des titres des entreprises */
 h4 {
   text-transform: uppercase;
@@ -119,7 +124,7 @@ h4 {
 
 /* ajustement de l'emplacement des lieux */
 .location {
-	margin-left: 4%;
+	margin-left: 6%;
 }
 
 /* mise en page de l'en-tête */
@@ -180,7 +185,7 @@ aside {
     margin-right: 60px;
   }
   .location {
-    margin-left: 20px;
+    margin-left: 9%;
   }
 }
 
@@ -217,7 +222,7 @@ aside {
     margin-right: 150px;
   }
   .location {
-    margin-left: 20px;
+    margin-left: 6%;
   }
 }
 
@@ -239,7 +244,7 @@ aside {
     margin-left: 1%;
   }
   .location {
-    margin-left: 20px;
+    margin-left: 8%;
   }
 }
 
