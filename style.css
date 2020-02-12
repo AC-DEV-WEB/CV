@@ -264,7 +264,7 @@ aside {
   }
 }
 
-/* tablette grand écrans */
+/* résolution intermédiaire */
 @media screen and (min-width: 1025px) and (max-width: 1279px) {
   header {
     width: auto;
